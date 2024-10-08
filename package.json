@@ -1,0 +1,36 @@
+{
+  "name": "evionica-to-capzlog-node",
+  "version": "1.0.0",
+  "description": "Transforms an evionica logbook CSV export to the format needed in order to be imported into capzlog, Node style",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tech-Cruiser/evionica-to-capzlog-node.git"
+  },
+  "keywords": [
+    "evionica",
+    "capzlog",
+    "csv",
+    "export",
+    "fly4life"
+  ],
+  "author": "Mihai Blaga <hey@mihaiblaga.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tech-Cruiser/evionica-to-capzlog-node/issues"
+  },
+  "homepage": "https://github.com/Tech-Cruiser/evionica-to-capzlog-node#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "globals": "^15.10.0"
+  }
+}
